@@ -1,0 +1,17 @@
+footer{
+    background-color: #222222;
+    color: white;
+    padding: 50px;
+}
+footer p.head{
+    font-size: 1.5rem;
+}
+footer div.links a , footer .important-links a{
+    text-decoration: none;
+    color: #979797;
+}
+footer div.logo{
+    margin:auto;
+    margin-bottom: 2rem;
+    width: 50%;
+}
