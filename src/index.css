@@ -38,6 +38,9 @@ li{
     /* text-shadow:  0 0 10px #979797,0 0 20px #979797,0 0 40px #979797,0 0 80px #979797,0 0 120px #979797; */
   }
 }
+canvas{
+  background-color: black;
+}
 .hover:hover{
   color: white;
 }

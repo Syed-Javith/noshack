@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import List from '../components/List/List'
-import { changeOfPrivacyPolicy, cookiePara, cookies, dataProtection, definitionPara, disclose, introPara, linkToOtherSites, locationData, personallyIdentifiable, retentionData, rightsArray, rigthsData, serviceData, tranferOfDataPara, useOfData } from '../data'
+import { changeOfPrivacyPolicy, cookiePara, cookies, dataProtection, definitionPara, disclose, introPara, linkToOtherSites, locationData, personallyIdentifiable, retentionData, rightsArray, rigthsData, serviceData, tranferOfDataPara, usageData, useOfData } from '../data'
 import ContentList from '../components/List/ContentList'
 
 const TermsPrivacyCookiePolicy = () => {
@@ -25,9 +25,7 @@ const TermsPrivacyCookiePolicy = () => {
         <List list={personallyIdentifiable} />
         <p>We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link.</p>
         <h3>USAGE DATA:</h3>
-        <p>We may also collect information that your browser sends whenever you visit our Service or when you access Service by or through any device (“Usage Data”).</p>
-        <p>This Usage Data may include information such as your computer’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-        <p>When you access Service with a device, this Usage Data may include information such as the type of device you use, your device unique ID, the IP address of your device, your device operating system, the type of Internet browser you use, unique device identifiers and other diagnostic data.</p>
+       <ContentList content={usageData} />
         <h3>LOCATION DATA:</h3>
         <ContentList content={locationData} />
         <h3>TRACKING COOKIES DATA: </h3>
