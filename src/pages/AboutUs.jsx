@@ -1,9 +1,14 @@
 import React from 'react'
+import RecognisedBy from '../components/RecognisedBy/RecognisedBy'
+import AboutUsHeader from '../components/AboutUsHeader/AboutUsHeader'
+import OurValues from '../components/OurValues/OurValues'
 
 const AboutUs = () => {
   return (
     <div>
-      <h1>About Us Page</h1>
+      <AboutUsHeader />
+      <RecognisedBy />
+      <OurValues />
     </div>
   )
 }

@@ -9,7 +9,7 @@ const FirstProduct = () => {
 <button className='btn btn-light rounded-5'>Explore</button>
 <div>
 
-<img src={require('../../assets/images/home/Feature Graphic.png')} className='animate' alt="" height={'8%'} width={'80%'} />
+<img data-aos="fade-up" src={require('../../assets/images/home/Feature Graphic.png')} className='animate' alt="" height={'8%'} width={'80%'} />
 
 </div>
     </div>
