@@ -9,11 +9,11 @@ const Address = () => {
 <div className="links">
     <div>
         <img src={require('../../assets/images/footer/mail.png')} alt="" height={20} width={20}/>
-        <a href="mailto:tech@noshack.com"> tech@noshack.com</a>
+        <a className="hover" href="mailto:tech@noshack.com"> tech@noshack.com</a>
     </div>
     <div>
     <img src={require('../../assets/images/footer/phone.png')} alt="" height={20} width={20}/>
-        <a href="tel:7010422385"> Contact Us</a>
+        <a className="hover" href="tel:7010422385"> Contact Us</a>
     </div>
 </div>
     </div>

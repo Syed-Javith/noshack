@@ -25,15 +25,15 @@ const Footer = () => {
                     <div className="col-lg-4">
                         <div className='important-links'>
                             <div>
-                                <a href="https://www.nnbedu.com/">NodeNBlocks for Education</a>
+                                <a className="hover" href="https://www.nnbedu.com/">NodeNBlocks for Education</a>
                             </div>
                             <div>
-                                <Link to="/terms-privacy-cookie-policy">Terms of service</Link>
+                                <Link className="hover" to="/terms-privacy-cookie-policy">Terms of service</Link>
                             </div>
                             <div>
-                                <Link to="/terms-privacy-cookie-policy">Privacy Policy</Link></div>
+                                <Link className="hover" to="/terms-privacy-cookie-policy">Privacy Policy</Link></div>
                             <div>
-                                <Link to="/terms-privacy-cookie-policy">Cookie Policy</Link>
+                                <Link className="hover" to="/terms-privacy-cookie-policy">Cookie Policy</Link>
                             </div>
                         </div>
                     </div>
