@@ -4,7 +4,7 @@ const AboutUsHeader = () => {
     return (
         <div className="about-us-header">
             <div className="container">
-                <p>
+                <p className="grey">
                     Our Vision
                 </p>
 

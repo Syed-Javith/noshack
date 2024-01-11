@@ -4,5 +4,30 @@
 
     & ol{
         color: white;
+        margin-top: 0;
+        padding-left: 0;
+        text-align: center;
+        width: 30%;
+        margin: 2rem auto;
+        overflow-y: hidden;
+    }
+
+    & h2{
+        display: inline-block;
+        align-self: baseline;
+        font-weight: bolder;
+    }
+    & li{
+        list-style-position: unset;
+        margin-bottom: 3rem;
+    }
+    & p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (width < 800px) {
+    .our-values ol{
+        width: 80%;
     }
 }

@@ -20,6 +20,9 @@
         color: #007df2;
         background-color: #fff;
     }
+    & div.explore{
+        overflow-y: hidden;
+    }
 }
 
 @media (width<500px){
