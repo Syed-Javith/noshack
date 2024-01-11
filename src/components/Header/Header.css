@@ -15,7 +15,7 @@
 }
 .contents{
     position: absolute;
-    bottom: 5%;
+    top: 50%;
 }
 @media (width < 450px) {
     .home h1{
