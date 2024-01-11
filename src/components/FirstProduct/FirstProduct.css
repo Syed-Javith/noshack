@@ -1,0 +1,41 @@
+.first-product{
+    background-color: #007df2;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    min-height: 100vh;
+    & p{
+        font-size: 2rem;
+    }
+    & h1{
+        font-weight: bolder;
+        font-size: 3.75rem;
+    }
+    & button.btn{
+        padding: 10px;
+        margin: 20px auto;
+        font-weight: bolder;
+    }
+    & button.btn:hover{
+        color: #007df2;
+        background-color: #fff;
+    }
+}
+
+@media (width<500px){
+    .first-product{
+        & h1{
+            font-size: 2rem;
+        } 
+        & p{
+            font-size: 1.5rem;
+        }
+        & .animate{
+            height: 25vh;
+            width: 100vw;
+        }
+        & button.btn{
+            margin: 3rem auto;
+        }
+    }
+}

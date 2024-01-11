@@ -9,3 +9,14 @@ body {
   font-family: 'SatoshiRegular';
   src: url('./assets/fonts/Satoshi-Regular.otf');
 }
+.grey{
+  color: #979797
+}
+*{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  overflow-y: hidden;
+}

@@ -9,7 +9,7 @@ const NavBar = () => {
     <div>
        <Navbar expand="lg" >
       <Container>
-        <Navbar.Brand href="/"> <img src={ require('../../assets/images/home/noshack with logo white.png')} alt="" height={60} width={200} /></Navbar.Brand>
+        <Navbar.Brand href="/"> <img src={ require('../../assets/images/home/noshack with logo white.png')} alt="" height={33} width={144} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-auto">
