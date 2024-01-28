@@ -1,0 +1,49 @@
+#qr-content{
+    /* background-color: black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../../assets/images/home/2_edited.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+   
+}
+.qr-body{
+    padding: 10%;
+    color: white;
+    text-align: center;
+   
+}
+.qr-heading{
+    text-align: center;
+    font-weight: bolder;
+}
+.qr-text{
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 0 15%;
+    font-size: 1.5rem;
+
+}
+.qr-button {
+    display: block !important;
+    margin: 0 auto !important;
+    background: linear-gradient(to right, white 50%, black 50%) !important;
+    background-size: 200% 100% !important;
+    background-position: right bottom !important;
+    transition: background-position 0.5s ease-out !important;
+    width: 150px !important; /* Adjust the width as needed */
+}
+
+.qr-button:hover {
+    background-position: left bottom !important;
+    color: black !important;
+}
+
+
+
+@media (max-width:767px)
+{
+    .qr-text{
+        padding: 0;
+    }
+}

@@ -1,0 +1,39 @@
+#team{
+    background-color: black;
+}
+.img-content{
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+}
+
+.co-founder{
+    width: 40%;
+    
+}
+.img-body{
+    text-align: center;
+}
+.img-hide{
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+    
+
+}
+.img-hide {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .img-hide.show {
+    opacity: 1;
+  }
+  .img-edit{
+    margin-right: 1rem;
+
+  }
+  .team-intro{
+    text-align: center;
+    color: white;
+  }
